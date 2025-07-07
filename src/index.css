@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@theme {
+    --color-brightyellow: #FFDF46;
+    --font-display: "Space Mono", monospace;
+}
+
+*{
+    @apply font-display
+}
+
+.button{
+    @apply border border-solid border-brightyellow  text-2xl mt-7 p-2
+}
+
+h1{
+    @apply text-7xl
+}
+
+h2 {
+    @apply text-4xl
+}
+
+.LanguageTile {
+  @apply text-2xl flex items-center gap-2 flex-nowrap m-4 p-4 border border-solid border-brightyellow bg-neutral-900 hover:scale-107 hover:shadow-brightyellow hover:shadow-md ;
+}
+
+.ProjectCard {
+    @apply text-2xl gap-3 m-4 p-5 bg-neutral-900 border-t-4 border-neutral-700 hover:scale-107
+}
+
+.Card {
+    @apply bg-neutral-900 p-3 border-t-4 border-neutral-700 
+}
+
+.ProjectCard img {
+    @apply w-full h-80 object-contain mb-4
+}
+button {
+    @apply hover:scale-107 
+}
+
+a {
+    @apply hover:text-xl
+}
+
+.icons{
+    @apply flex items-center space-x-4 mt-5 mb-5 text-3xl
+}
