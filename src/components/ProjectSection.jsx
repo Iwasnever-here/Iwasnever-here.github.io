@@ -32,9 +32,27 @@ const ProjectSection = ({ id }) => {
           <a className = 'text-xl hover:pointer' href = "https://github.com/Iwasnever-here/to-do-app">/ view repository</a>
         </div>
 
-        <div className='ProjectCard'> / PROJECT 03</div>
-        <div className='ProjectCard'> / PROJECT 04</div>
-        <div className='ProjectCard'> / PROJECT 05</div>
+        <div className='ProjectCard'> 
+           <img src = ""  alt ="demo gif"/>
+          / CYPHER VISUALS
+          <div className='icons '>
+          <FaPython />
+          </div>
+            <p className='text-neutral-600 text-base'>A collection of cypher visual representations made using python and the tkinter library</p>
+          <a className = 'text-xl hover:pointer' href = "https://github.com/Iwasnever-here/visual-ciphers">/ view repository</a>
+          </div>
+
+
+        <div className='ProjectCard'> 
+           <img src = ""  alt ="demo gif"/>
+          / MINI-REACT-PROJECTS
+          <div className='icons '>
+          <FaReact /><SiTailwindcss /><IoLogoJavascript />
+          </div>
+            <p className='text-neutral-600 text-base'>A collection of small react frontend projects that showcase different aspects of react</p>
+          <a className = 'text-xl hover:pointer' href = "https://github.com/Iwasnever-here/react-mini-projects">/ view repository</a>
+          </div>
+       
 
       </div>
     </div>
