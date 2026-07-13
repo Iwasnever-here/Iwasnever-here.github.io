@@ -14,11 +14,10 @@ const AboutSection = ({ id }) => {
         <h2 className='pb-10'> / <DecryptedText text="ABOUT ME" /></h2>
 
         <p className='pb-10 mt-50'>
-        Hi, I'm Lucy, I'm a second year computer science student at the University of Edinburgh.
-        I enjoy programing but more specifically I have a growing interest in cybersecuirty. I'm particulary interested in how we can build secure
-        , resilient systems that can protect users and data. I'm currently developing knowledge in areas like
-        network security, cryptography and common attacks, and I'm excited to pursue a career where I can help
-        safeguard the fast growing digital world.
+        I'm a Computer Science student building full-stack applications with React, Node.js, Python, and Supabase. 
+        I enjoy solving real-world problems through software, with interests in scalable systems, developer tools, 
+        and cybersecurity. Currently, I'm building projects that focus on clean architecture, intuitive user experiences,
+        and practical impact while preparing for software engineering internships.
         </p>
 
         <div className=' grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 items-center'>
