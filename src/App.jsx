@@ -1,35 +1,43 @@
 import React from 'react'
-import NavBar from './components/NavBar'
 import './App.css'
-import HeaderSection from './components/HeaderSection'
-import AboutSection from './components/AboutSection'
-import ProjectSection from './components/ProjectSection'
-import ContactSection from './components/ContactSection'
-import LabsSection from './components/LabsSection'
+import Navbar from './components/layout/Navbar' 
+import PageBackground from './components/layout/PageBackground'
+import Hero from './sections/Hero'
+import About from './sections/About'
+import Skills from './sections/Skills'
+import Projects from './sections/Project'
+import Experience from './sections/Experience'
+import Contact from './sections/Contact'
+import Certificates from './sections/Certificates'
+import Footer from './sections/Footer'
+
 
 
 
 
 const App = () => {
   return (
-    <div className='bg-zinc-950 '>
+    <div >
+      <PageBackground />
+      <Navbar />
       
-      <NavBar /> 
-      <div className='pl-7 pr-7 px-4'>
-      <HeaderSection id="home" />
-      <AboutSection id="about" />
-      <ProjectSection id="projects" />
-      <LabsSection id="labs" />
-      <ContactSection id="contact" />
-      </div>
-        
-     
-      </div>
-    
+
+      <main className="relative z-10">
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Certificates />
+        <Contact />
+        <Footer />
+      </main>
+    </div>
   )
-}
+}     
+      
+
 
 export default App
-
 
 
