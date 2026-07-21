@@ -28,17 +28,17 @@ function Footer() {
         {/* Centre */}
         <div className="flex items-center gap-5">
           <FooterLink
-            href="mailto:hello@lucycoe.dev"
+            href="mailto:lucycoe07@gmail.com"
             icon={Mail}
           />
 
           <FooterLink
-            href="https://github.com/yourusername"
+            href="https://github.com/Iwasnever-here"
             icon={ArrowUp}
           />
 
           <FooterLink
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/lucy-coe-a191a834b/"
             icon={ArrowUp}
           />
         </div>
