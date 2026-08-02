@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
+import cvPdf from '../../assets/cv-lucy-coe.pdf'
 
 import {
   ChevronRight,
@@ -127,7 +128,7 @@ function DesktopNavigation() {
 function ResumeButton() {
   return (
     <a
-      href="src\assets\CV PALANTIR.pdf"
+      href={cvPdf}
       target="_blank"
       rel="noreferrer"
       className="hidden items-center gap-2 border border-yellow-400 bg-yellow-400 px-4 py-2 text-xs font-bold uppercase tracking-wider text-black transition hover:bg-transparent hover:text-yellow-400 sm:flex"
