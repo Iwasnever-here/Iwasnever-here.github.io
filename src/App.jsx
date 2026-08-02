@@ -8,7 +8,6 @@ import Skills from './sections/Skills'
 import Projects from './sections/Project'
 import Experience from './sections/Experience'
 import Contact from './sections/Contact'
-import Certificates from './sections/Certificates'
 import Footer from './sections/Footer'
 
 
@@ -28,7 +27,6 @@ const App = () => {
         <Skills />
         <Projects />
         <Experience />
-        <Certificates />
         <Contact />
         <Footer />
       </main>

@@ -6,10 +6,10 @@ const projects = [
     title: 'StudyFlow',
     description:
       'A study management platform designed to help students organise tasks, track progress and build consistent study habits.',
-    technologies: ['React', 'Supabase', 'Tailwind CSS'],
-    image: '/projects/studyflow.png',
-    liveUrl: '#',
-    githubUrl: '#',
+    technologies: ['React', 'Supabase', 'Tailwind CSS', 'Vercel'],
+    image: 'src/assets/studyflowdark.png',
+    liveUrl: 'https://studyflow-virid-seven.vercel.app/',
+    githubUrl: 'https://github.com/Iwasnever-here/StudyFlow',
   },
   {
     number: '02',
@@ -17,9 +17,9 @@ const projects = [
     description:
       'An interactive application that explains and visualises classical encryption methods through step-by-step demonstrations.',
     technologies: ['Python', 'Tkinter'],
-    image: '/projects/visual-ciphers.png',
+    image: 'src/assets/cyphersscreen.png',
     liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/Iwasnever-here/visual-ciphers',
   },
   {
     number: '03',
@@ -27,9 +27,9 @@ const projects = [
     description:
       'A collection of small, focused React applications demonstrating various concepts and techniques.',
     technologies: ['React', 'JavaScript', 'APIs'],
-    image: '/projects/project-placeholder.png',
+    image: 'src/assets/minidrawdraw.png',
     liveUrl: '#',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/Iwasnever-here/react-mini-projects',
   },
 ]
 
@@ -166,7 +166,7 @@ function Project({ project, reverse, index }) {
             {project.technologies.map((technology) => (
               <span
                 key={technology}
-                className="border border-white/10 px-3 py-2 font-mono text-[10px] uppercase tracking-[0.12em] text-neutral-500 transition-colors duration-300 group-hover:border-white/20"
+                className="border border-white px-3 py-2 font-mono text-[10px] uppercase tracking-[0.12em] text-neutral-100 transition-colors duration-300 "
               >
                 {technology}
               </span>
@@ -174,7 +174,7 @@ function Project({ project, reverse, index }) {
           </div>
         </div>
 
-        <div className="mt-10 flex flex-wrap gap-6">
+        <div className="mt-10 flex flex-wrap gap-6 ">
           <ProjectLink href={project.liveUrl}>
             Live project
           </ProjectLink>

@@ -1,8 +1,8 @@
 import { motion } from 'motion/react'
 
 const stats = [
-  { value: '6+', label: 'Projects built' },
-  { value: '150+', label: 'DSA problems' },
+  { value: '5+', label: 'Projects built' },
+  { value: '50+', label: 'DSA problems' },
   { value: '100%', label: 'Locked in' },
 ]
 
@@ -45,7 +45,7 @@ function About() {
 
             <p>
               Outside of projects, I’m developing my understanding of data
-              structures, algorithms and core computer science concepts.
+              structures, algorithms as well as core computer science concepts.
             </p>
           </div>
 
