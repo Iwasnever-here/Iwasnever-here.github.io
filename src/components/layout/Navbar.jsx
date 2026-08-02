@@ -127,7 +127,7 @@ function DesktopNavigation() {
 function ResumeButton() {
   return (
     <a
-      href="/resume.pdf"
+      href="src\assets\CV PALANTIR.pdf"
       target="_blank"
       rel="noreferrer"
       className="hidden items-center gap-2 border border-yellow-400 bg-yellow-400 px-4 py-2 text-xs font-bold uppercase tracking-wider text-black transition hover:bg-transparent hover:text-yellow-400 sm:flex"

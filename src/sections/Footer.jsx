@@ -2,6 +2,8 @@ import { motion } from 'motion/react'
 import {
   ArrowUp,
   Mail,
+  Code,
+  UserRound,
 } from 'lucide-react'
 
 function Footer() {
@@ -34,12 +36,12 @@ function Footer() {
 
           <FooterLink
             href="https://github.com/Iwasnever-here"
-            icon={ArrowUp}
+            icon={Code}
           />
 
           <FooterLink
             href="https://www.linkedin.com/in/lucy-coe-a191a834b/"
-            icon={ArrowUp}
+            icon={UserRound}
           />
         </div>
 
