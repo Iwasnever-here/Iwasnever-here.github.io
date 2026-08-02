@@ -1,4 +1,7 @@
 import { motion } from 'motion/react'
+import studyFlowImage from '../assets/studyflowdark.png'
+import visualCiphersImage from '../assets/cyphersscreen.png'
+import miniProjectsImage from '../assets/minidrawdraw.png'
 
 const projects = [
   {
@@ -6,8 +9,13 @@ const projects = [
     title: 'StudyFlow',
     description:
       'A study management platform designed to help students organise tasks, track progress and build consistent study habits.',
-    technologies: ['React', 'Supabase', 'Tailwind CSS', 'Vercel'],
-    image: 'src/assets/studyflowdark.png',
+    technologies: [
+      'React',
+      'Supabase',
+      'Tailwind CSS',
+      'Vercel',
+    ],
+    image: studyFlowImage,
     liveUrl: 'https://studyflow-virid-seven.vercel.app/',
     githubUrl: 'https://github.com/Iwasnever-here/StudyFlow',
   },
@@ -17,7 +25,7 @@ const projects = [
     description:
       'An interactive application that explains and visualises classical encryption methods through step-by-step demonstrations.',
     technologies: ['Python', 'Tkinter'],
-    image: 'src/assets/cyphersscreen.png',
+    image: visualCiphersImage,
     liveUrl: '#',
     githubUrl: 'https://github.com/Iwasnever-here/visual-ciphers',
   },
@@ -27,9 +35,10 @@ const projects = [
     description:
       'A collection of small, focused React applications demonstrating various concepts and techniques.',
     technologies: ['React', 'JavaScript', 'APIs'],
-    image: 'src/assets/minidrawdraw.png',
+    image: miniProjectsImage,
     liveUrl: '#',
-    githubUrl: 'https://github.com/Iwasnever-here/react-mini-projects',
+    githubUrl:
+      'https://github.com/Iwasnever-here/react-mini-projects',
   },
 ]
 
@@ -77,11 +86,7 @@ function Projects() {
             amount: 0.5,
           }}
           className="mt-8 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between"
-        >
-        
-
-          
-        </motion.div>
+        />
 
         <div className="mt-14 space-y-6">
           {projects.map((project, index) => (
@@ -98,7 +103,11 @@ function Projects() {
   )
 }
 
-function Project({ project, reverse, index }) {
+function Project({
+  project,
+  reverse,
+  index,
+}) {
   const projectVariants = {
     hidden: {
       opacity: 0,
@@ -166,7 +175,7 @@ function Project({ project, reverse, index }) {
             {project.technologies.map((technology) => (
               <span
                 key={technology}
-                className="border border-white px-3 py-2 font-mono text-[10px] uppercase tracking-[0.12em] text-neutral-100 transition-colors duration-300 "
+                className="border border-white px-3 py-2 font-mono text-[10px] uppercase tracking-[0.12em] text-neutral-100 transition-colors duration-300"
               >
                 {technology}
               </span>
@@ -174,7 +183,7 @@ function Project({ project, reverse, index }) {
           </div>
         </div>
 
-        <div className="mt-10 flex flex-wrap gap-6 ">
+        <div className="mt-10 flex flex-wrap gap-6">
           <ProjectLink href={project.liveUrl}>
             Live project
           </ProjectLink>
@@ -188,7 +197,10 @@ function Project({ project, reverse, index }) {
   )
 }
 
-function ProjectLink({ href, children }) {
+function ProjectLink({
+  href,
+  children,
+}) {
   const isPlaceholder = !href || href === '#'
 
   return (
