@@ -71,7 +71,7 @@ function Contact() {
             </p>
 
             <motion.a
-              href="mailto:hello@lucycoe.dev"
+              href="mailto:lucycoe07@gmail.com"
               whileHover={{ x: 6 }}
               className="group mt-9 inline-flex items-center gap-4 text-lg font-semibold text-(--text-primary)"
             >
