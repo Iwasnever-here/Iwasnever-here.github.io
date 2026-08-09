@@ -242,7 +242,7 @@ function TimelineItem({ experience, index }) {
               </p>
             </div>
 
-            <h3 className="mt-3 text-xl font-semibold tracking-tight text-(--text-primary) sm:text-2xl">
+            <h3 className="mt-3 text-xl font-semibold tracking-tight text-neutral-300 sm:text-2xl">
               {experience.title}
             </h3>
 

@@ -2,6 +2,7 @@ import { motion } from 'motion/react'
 import studyFlowImage from '../assets/studyflowdark.png'
 import visualCiphersImage from '../assets/cyphersscreen.png'
 import miniProjectsImage from '../assets/minidrawdraw.png'
+import httpserverimage from '../assets/httpserverimage.png'
 
 const projects = [
   {
@@ -39,6 +40,17 @@ const projects = [
     liveUrl: '#',
     githubUrl:
       'https://github.com/Iwasnever-here/react-mini-projects',
+  },
+  {
+    number: '04',
+    title: 'Java Http Server',
+    description:
+      'An HTTP/1.1 server built from scratch in Java, featuring routing, concurrency, middleware, static file serving and session management.',
+    technologies: ['Java', 'TCP/IP', 'HTTP/1.1', 'JUnit'],
+    image: httpserverimage,
+    liveUrl: '#',
+    githubUrl:
+      'https://github.com/Iwasnever-here/java-http-server',
   },
 ]
 
