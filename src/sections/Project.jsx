@@ -3,6 +3,7 @@ import studyFlowImage from '../assets/studyflowdark.png'
 import visualCiphersImage from '../assets/cyphersscreen.png'
 import miniProjectsImage from '../assets/minidrawdraw.png'
 import httpserverimage from '../assets/httpserverimage.png'
+import projectsimianimage from '../assets/projectsimianimage.png'
 
 const projects = [
   {
@@ -52,6 +53,23 @@ const projects = [
     githubUrl:
       'https://github.com/Iwasnever-here/java-http-server',
   },
+  {
+  number: '03',
+
+  title: 'Project Simian',
+
+  description:
+    'An agent-based simulation featuring autonomous monkeys with limited perception, memory, resource-driven behaviour and pathfinding in a procedural island environment.',
+
+  technologies: ['Python', 'FastAPI', 'React', 'TypeScript', 'PixiJS'],
+
+  image: projectsimianimage,
+
+  liveUrl: '#',
+
+  githubUrl:
+    'https://github.com/Iwasnever-here/project-simian',
+},
 ]
 
 const headingVariants = {

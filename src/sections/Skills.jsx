@@ -12,6 +12,7 @@ const skills = [
   { name: 'SQL', category: 'Backend' },
   { name: 'REST APIs', category: 'Backend' },
   { name: 'Git', category: 'Tools' },
+  { name: 'TypeScript', category: 'Frontend' },
 ]
 
 const containerVariants = {
