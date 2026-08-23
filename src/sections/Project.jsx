@@ -61,7 +61,7 @@ const projects = [
   description:
     'An agent-based simulation featuring autonomous monkeys with limited perception, memory, resource-driven behaviour and pathfinding in a procedural island environment.',
 
-  technologies: ['Python', 'FastAPI', 'React', 'TypeScript', 'PixiJS'],
+  technologies: ['Python', 'FastAPI', 'React', 'TypeScript', 'PixiJS', 'Docker'],
 
   image: projectsimianimage,
 

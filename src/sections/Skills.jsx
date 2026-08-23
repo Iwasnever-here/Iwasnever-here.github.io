@@ -5,7 +5,7 @@ const skills = [
   { name: 'JavaScript', category: 'Frontend' },
   { name: 'HTML', category: 'Frontend' },
   { name: 'Tailwind CSS', category: 'Frontend' },
-  { name: 'Node.js', category: 'Backend' },
+  { name: 'Docker', category: 'Tools' },
   { name: 'Java', category: 'Backend' },
   { name: 'Python', category: 'Backend' },
   { name: 'Supabase', category: 'Backend' },
