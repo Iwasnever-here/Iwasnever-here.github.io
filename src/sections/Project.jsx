@@ -54,23 +54,17 @@ const projects = [
       'https://github.com/Iwasnever-here/java-http-server',
   },
   {
-  number: '03',
-
-  title: 'Project Simian',
-
-  description:
-    'An agent-based simulation featuring autonomous monkeys with limited perception, memory, resource-driven behaviour and pathfinding in a procedural island environment.',
-
-  technologies: ['Python', 'FastAPI', 'React', 'TypeScript', 'PixiJS', 'Docker'],
-
-  image: projectsimianimage,
-
-  liveUrl: '#',
-
-  githubUrl:
-    'https://github.com/Iwasnever-here/project-simian',
-},
-]
+    number: '05',
+    title: 'Project Simian',
+    description:
+      'An agent-based simulation featuring autonomous monkeys with limited perception, memory, resource-driven behaviour and pathfinding in a procedural island environment.',
+    technologies: ['Python', 'FastAPI', 'React', 'TypeScript', 'PixiJS', 'Docker', 'pyTorch'],
+    image: projectsimianimage,
+    liveUrl: '#',
+    githubUrl:
+      'https://github.com/Iwasnever-here/project-simian',
+  },
+  ]
 
 const headingVariants = {
   hidden: {
