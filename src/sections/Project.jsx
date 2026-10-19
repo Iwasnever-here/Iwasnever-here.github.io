@@ -4,6 +4,7 @@ import visualCiphersImage from '../assets/cyphersscreen.png'
 import miniProjectsImage from '../assets/minidrawdraw.png'
 import httpserverimage from '../assets/httpserverimage.png'
 import projectsimianimage from '../assets/projectsimianimage.png'
+import bidscanner from '../assets/bidscanner.jpg'
 
 const projects = [
   {
@@ -63,6 +64,19 @@ const projects = [
     liveUrl: '#',
     githubUrl:
       'https://github.com/Iwasnever-here/project-simian',
+  },
+  {
+    number: '06',
+    title: 'BidScanner',
+    description:
+      'Tell airlines what you need. Let them bid for you. A web application that allows users to submit their flight requirements and receive competitive bids from airlines, streamlining the booking process and ensuring the best deals.',
+    technologies: [
+      'React',
+      'springboot',
+    ],
+    image: bidscanner,
+    liveUrl: 'https://devpost.com/software/bidscanner',
+    githubUrl: 'https://github.com/Iwasnever-here/Edinburgh-ai-hackathon',
   },
   ]
 
