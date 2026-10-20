@@ -2,8 +2,8 @@ import { motion } from 'motion/react'
 
 const stats = [
   { value: '6+', label: 'Projects built' },
-  { value: '150+', label: 'DSA problems' },
-  { value: '98%', label: 'Locked in' },
+  { value: '200+', label: 'DSA problems' },
+  { value: '95%', label: 'Locked in' },
 ]
 
 function About() {
